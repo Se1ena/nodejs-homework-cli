@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-homework-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Se1ena/nodejs-homework-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Se1ena/nodejs-homework-cli/issues"
+  },
+  "homepage": "https://github.com/Se1ena/nodejs-homework-cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "3.3.4",
+    "yargs": "^17.7.1"
+  }
+}
