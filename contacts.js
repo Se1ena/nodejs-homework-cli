@@ -1,6 +1,5 @@
 const fs = require("fs/promises");
 const path = require("path");
-//const { nanoid } = require("nanoid");
 
 const { customAlphabet } = require("nanoid");
 
@@ -9,7 +8,6 @@ const nanoid = customAlphabet("1234567890", 3);
 const contactsPath = path.resolve("db", "contacts.json");
 const encoding = "utf-8";
 
-// TODO: задокументувати кожну функцію
 const listContacts = async () => {
   const data = await fs.readFile(contactsPath, { encoding });
   return JSON.parse(data);
